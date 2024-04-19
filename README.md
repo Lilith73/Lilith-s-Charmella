@@ -1,5 +1,5 @@
 # Lilith-s_Charmella
-Ez a webáruház...
+Záródolgozatom témája egy weboldal létrehozása, melyben egy webáruház kialakítására összpontosítottam. A projekt során az előzőleg megszerzett ismereteket és a tanórákon elsajátított tudást felhasználva terveztem és fejlesztettem ki az oldalt. Emellett saját designokat és internetes forrásokat is bevetettem annak érdekében, hogy egyedi és vonzó megjelenést érjek el.
 
 ## Kező lépések 
 A project állományait ezen az urld címen éri el:
