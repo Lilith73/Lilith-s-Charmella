@@ -3,7 +3,7 @@ Ez a webáruház...
 
 ## Kező lépések 
 A project állományait ezen az urld címen éri el:
-https://github.com/Lilith73/Lilith-s_Charmella.git
+[https://github.com/Lilith73/Lilith-s_Charmella.git](https://github.com/Lilith73/Lilith-s-Charmella.git)
 
 ## Előfeltételek
 - Visual Studio Code
