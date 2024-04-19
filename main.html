@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img_main/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"
+        integrity="sha512-kDmbIQZ10fxeKP5NSt3+tz77HO42IJiS+YPIirOIKTdokl4LtuXYo3NNvq9mTAF+rzdV1plp0sm9E6nvtVpnFQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/cart.js" defer></script>
+
+    <title>Lilith's Charmella - Termékek</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav class="navbar">
+        <a class="nav-item nav-link current" href="./main.html">Termékek</a>
+        <a class="nav-item nav-link" href="./info.html">Információk</a>
+        <a class="nav-item nav-link" href="./szervezetek.html">Szervezetek és Non-Profit szervezetek</a>
+        <a class="nav-item nav-link last" href="./regist_login.html">Regisztráció/Bejelentkezés</a>
+        <a class="nav-item nav-link" href="./forrasok.html">Források és Ábrajegyzék</a>
+        <i class="fi-shopping-cart"></i>
+    </nav>
+
+    <aside id="cart-content" class="cart-active">
+        <h5>Kosár tartalma:</h5>
+        <ul id="cart-items">
+            
+        </ul>
+        <p class="totalPriceElement"></p>
+        <p id="total-price"></p>
+        <div class="form-floating">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option selected>Válasszon...</option>
+                <option value="1">Eszter Alapítvány</option>
+                <option value="2">UNICEF</option>
+                <option value="3">BaGázs</option>
+                <option value="4">Nem adom fel kávézó</option>
+                <option value="5">Magyar Rett Szindróma Alapítvány</option>
+            </select>
+            <label for="floatingSelect">Válassza ki kinek szeretne
+                adományozni!</label>
+                <a href="./info.html" class="link">Információk az adományozásról és minden egyébről itt!</a>
+        </div>
+        <a class="btn btn-primary" href="./pay.html">Fizetés</a>
+    </aside>
+
+    <main>
+        <main>
+
+            <div class="container first-row">
+
+                <div class="card">
+                    <img src="./img_main/ee_polo.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Éjszakai Égbolt Póló</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 2990 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/ee_pulcsi.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Éjszakai Égbolt Kapucnis Felső</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 4990 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/ee_tote.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Éjszakai Égbolt Tote Bag</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 1990 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="card">
+                    <img src="./img_main/szv_polo.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Szív és Virágok Póló</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 2490 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/szv_pulcsi.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Szív és Virágok Kapucnis Felső</h5>
+                        <p>Halvány Rózsaszín</p>
+                        <p>Ár: 3990 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/szv_tote.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Szív és Virágok Tote Bag</h5>
+                        <p>Bézs</p>
+                        <p>Ár: 1490 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="card">
+                    <img src="./img_main/lsz_polo.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Szívek Póló</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 2990 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/lsz_pulcsi.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Szívek Kapucnis felső</h5>
+                        <p>Fehér Halvány Lila részletekkel</p>
+                        <p>Ár: 3490 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/lsz_tote.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Szívek Tote Bag</h5>
+                        <p>Bézs</p>
+                        <p>Ár: 1590 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="card">
+                    <img src="./img_main/logosz_polo.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Logó és Szlogen Póló</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 2490 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/logosz_pulcsi.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Logó és Szlogen Kapucnis Felső</h5>
+                        <p>Fehér</p>
+                        <p>Ár: 5490 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img_main/logosz_tote.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Logó és Szlogen Tote Bag</h5>
+                        <p>Bézs</p>
+                        <p>Ár: 2990 ft</p>
+                        <a class="btn btn-primary">Kosárba</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h4>Webshop elérhetősége:</h4>
+            <ul class="shop">
+                <li>Email cím: liliths.charmella@gmail.com</li>
+                <li>Telefonszám: +36 30 1234 56 78</li>
+                <li>Instagram: <a href="https://www.instagram.com/" class="link">Link</a></li>
+                <li>Facebook: <a href="https://www.facebook.com/?locale=hu_HU" class="link">Link</a></li>
+            </ul>
+        </footer>
+</body>
+
+</html>
